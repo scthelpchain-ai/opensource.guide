@@ -35,7 +35,7 @@ redirect_from: /zh-cn/best-practices/
 
 有一个明确的，用文档表达清晰的愿景，能保证项目的走向不会跑偏，同时也能保障因为其他的贡献者增加的奇怪的需求而使项目变质。
 
-比如，@lord 发现项目有一个明确的愿景能够帮助他决定哪个 PR 值得花时间。作为一个维护者的新手，他甚至还后悔当他接到第一个关于 [slate](https://github.com/lord/slate)) PR 的时候没有坚持项目本身的原则。
+比如，@lord 发现项目有一个明确的愿景能够帮助他决定哪个 PR 值得花时间。作为一个维护者的新手，他甚至还后悔当他接到第一个关于 [slate](https://github.com/lord/slate) PR 的时候没有坚持项目本身的原则。
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/lord?s=180" class="pquote-avatar" alt="avatar">
@@ -94,7 +94,7 @@ redirect_from: /zh-cn/best-practices/
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/krausefx?s=180" class="pquote-avatar" alt="avatar">
-  管理大型开源项目的关键就是保证 issue 活跃。尽量避免让 issue 停滞不前。如果你是一个IOS开发者，你会知道<abbr title="提交问题到 Apple 的 Radar bug 跟踪系统">提交雷达</abbr>是多么让人沮丧。您可能会在2年后收到回复，并被告知要再次使用最新版本的iOS。
+  管理大型开源项目的关键就是保证 issue 活跃。尽量避免让 issue 停滞不前。如果你是一个iOS开发者，你会知道<abbr title="提交问题到 Apple 的 Radar bug 跟踪系统">提交雷达</abbr>是多么让人沮丧。您可能会在2年后收到回复，并被告知要再次使用最新版本的iOS。
   <p markdown="1" class="pquote-credit">
 — @KrauseFx, ["开源社区黑客增长"](https://krausefx.com/blog/scaling-open-source-communities)
   </p>

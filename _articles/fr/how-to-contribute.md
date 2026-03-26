@@ -86,7 +86,7 @@ Même si vous aimez écrire du code, d'autres types de contributions sont un exc
 * Écrire et améliorer la documentation du projet
 * Curate un dossier d'exemples montrant comment le projet est utilisé
 * Démarrer un bulletin d'information pour le projet, ou organiser des faits marquants de la liste de diffusion
-* Rédiger des tutoriels pour le projet, [comme les contributeurs de PyPA l'ont fait](https://github.com/pypa/python-packaging-user-guide/issues/194)
+* Rédiger des tutoriels pour le projet, [comme les contributeurs de PyPA l'ont fait](https://packaging.python.org/)
 * Écrire une traduction pour la documentation du projet
 
 <aside markdown="1" class="pquote">
@@ -207,9 +207,9 @@ Vous pouvez également utiliser l'une des ressources suivantes pour vous aider �
 * [CodeTriage](https://www.codetriage.com/)
 * [24 Pull Requests](https://24pullrequests.com/)
 * [Up For Grabs](https://up-for-grabs.net/)
-* [Contributor-ninja](https://contributor.ninja)
 * [First Contributions](https://firstcontributions.github.io)
 * [SourceSort](https://web.archive.org/web/20201111233803/https://www.sourcesort.com/)
+* [OpenSauced](https://opensauced.pizza/)
 
 ### Une checklist avant de contribuer
 
@@ -247,7 +247,7 @@ Regardez l'activité des commits sur la branche principale. Sur GitHub, vous pou
 <div class="clearfix mb-4">
   <input type="checkbox" id="cbox4" class="d-block float-left mt-1 mr-2" value="checkbox">
   <label for="cbox4" class="overflow-hidden d-block text-normal">
-  À quelle fréquence les gens commmits ? (Sur GitHub, vous pouvez le trouver en cliquant sur "Commits" dans la barre du haut.)
+  À quelle fréquence les gens commits ? (Sur GitHub, vous pouvez le trouver en cliquant sur "Commits" dans la barre du haut.)
   </label>
 </div>
 
@@ -497,7 +497,7 @@ Si vous faites une contribution et que personne ne répond, il est possible que 
 
 Il est courant que l'on vous demande d'apporter des modifications à votre contribution, qu'il s'agisse de commentaires sur la portée de votre idée ou de modifications apportées à votre code.
 
-Quand quelqu'un demande des changements, soyez flexible. Ils ont pris le temps d'examiner votre contribution. Ouvrir une PR et passer a autre chose est une mauvaise idée. Si vous ne savez pas comment faire des changements, recherchez le problème, puis demandez de l'aide si vous en avez besoin.
+Quand quelqu'un demande des changements, soyez flexible. Ils ont pris le temps d'examiner votre contribution. Ouvrir une PR et passer à autre chose est une mauvaise idée. Si vous ne savez pas comment faire des changements, recherchez le problème, puis demandez de l'aide si vous en avez besoin.
 
 Si vous n'avez plus le temps de travailler sur le problème (par exemple, si la conversation dure depuis des mois et que votre situation a changé), informez le responsable pour qu'il n'attende pas de réponse. Quelqu'un d'autre peut être heureux de prendre le relais.
 

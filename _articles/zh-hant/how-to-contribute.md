@@ -87,7 +87,7 @@ redirect_from: /zh-tw/how-to-contribute/
 * 撰寫和改善專案的說明文件
 * 策劃一個資料夾來蒐集專案的實際應用案例
 * 辦一個專案的電子報，或者蒐整郵件列表的摘要
-* 寫一個專案教學，就像 [PyPA 的貢獻者做的](https://github.com/pypa/python-packaging-user-guide/issues/194)
+* 寫一個專案教學，就像 [PyPA 的貢獻者做的](https://packaging.python.org/)
 * 翻譯專案的說明文件
 
 <aside markdown="1" class="pquote">
@@ -113,7 +113,7 @@ redirect_from: /zh-tw/how-to-contribute/
 
 ### **你喜歡幫助他人？**
 
-* 回答有關於專案的問題，例如在 Stack Overflow( [Postgres 的展示範例](http://stackoverflow.com/questions/18664074/getting-error-peer-authentication-failed-for-user-postgres-when-to-ge) )或者 reddit 上
+* 回答有關於專案的問題，例如在 Stack Overflow( [Postgres 的展示範例](https://stackoverflow.com/questions/18664074/getting-error-peer-authentication-failed-for-user-postgres-when-to-ge) )或者 reddit 上
 * 回答處於開放狀態的議題
 * 鼓勵、協助創造友善的討論區禮儀
 
@@ -204,13 +204,13 @@ redirect_from: /zh-tw/how-to-contribute/
 
 * [GitHub 探索](https://github.com/explore/)
 * [First Timers Only](http://www.firsttimersonly.com/)
-* [你的第一個 PR](https://yourfirstpr.github.io/)
 * [CodeTriage](https://www.codetriage.com/)
 * [24 Pull Requests](https://24pullrequests.com/)
 * [Up For Grabs](http://up-for-grabs.net/)
 * [貢獻忍者](https://contributor.ninja)
 * [最初的贡献](https://firstcontributions.github.io)
 * [SourceSort](https://web.archive.org/web/20201111233803/https://www.sourcesort.com/)
+* [OpenSauced](https://opensauced.pizza/)
 
 ### **提交貢獻前應做的檢查清單**
 

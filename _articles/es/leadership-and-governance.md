@@ -32,7 +32,7 @@ Un mantenedor no necesariamente tiene que ser alguien que escribe c&oacute;digo 
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/mikeal?s=180" class="pquote-avatar" alt="avatar">
-  Para [Node.js](https://nodejs.org/es/), cada persona que se presenta para comentar un problema o env&iacute;a c&oacute;digo es un miembro de la comunidad de un proyecto. S&oacute;lo ser capaz de verlos significa que han cruzado la l&iacute;nea de ser un usuario a ser un contribuyente.
+  [Para Node.js], cada persona que se presenta para comentar un problema o env&iacute;a c&oacute;digo es un miembro de la comunidad de un proyecto. S&oacute;lo ser capaz de verlos significa que han cruzado la l&iacute;nea de ser un usuario a ser un contribuyente.
   <p markdown="1" class="pquote-credit">
 — @mikeal, ["Healthy Open Source"](https://medium.com/the-javascript-collection/healthy-open-source-967fa8be7951)
   </p>
@@ -143,7 +143,7 @@ Por ejemplo, si desea crear un negocio comercial, desee configurar una C Corp o 
 
 Si quieres aceptar donaciones para tu proyecto de c&oacute;digo abierto, podes configurar un bot&oacute;n de donaci&oacute;n (mediante PayPal o Stripe, por ejemplo), pero el dinero no ser&aacute; deducible de impuestos a menos que sea una organizaci&oacute;n sin fines de lucro calificada (un 501c3, si est&aacute;s en los EE.UU.).
 
-Muchos proyectos no desean pasar por la molestia de crear una organizaci&oacute;n sin fines de lucro, por lo que encuentran un patrocinador fiscal sin fines de lucro en su lugar. Un patrocinador fiscal acepta donaciones en su nombre, normalmente a cambio de un porcentaje de la donaci&oacute;n. [Software Freedom Conservancy](https://sfconservancy.org/), [Apache Foundation](https://www.apache.org/), [Eclipse Foundation](https://eclipse.org/org/foundation/ ), [Linux Foundation](https://www.linuxfoundation.org/projects) y [Open Collective](https://opencollective.com/opensource) son ejemplos de organizaciones que sirven como patrocinadores fiscales para proyectos de c&oacute;digo abierto.
+Muchos proyectos no desean pasar por la molestia de crear una organizaci&oacute;n sin fines de lucro, por lo que encuentran un patrocinador fiscal sin fines de lucro en su lugar. Un patrocinador fiscal acepta donaciones en su nombre, normalmente a cambio de un porcentaje de la donaci&oacute;n. [Software Freedom Conservancy](https://sfconservancy.org/), [Apache Foundation](https://www.apache.org/), [Eclipse Foundation](https://www.eclipse.org/org/), [Linux Foundation](https://www.linuxfoundation.org/projects) y [Open Collective](https://opencollective.com/opensource) son ejemplos de organizaciones que sirven como patrocinadores fiscales para proyectos de c&oacute;digo abierto.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/piamancini?s=180" class="pquote-avatar" alt="avatar">
