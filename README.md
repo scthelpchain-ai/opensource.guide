@@ -56,4 +56,61 @@ While we've got advice about running an open source project, we're not lawyers. 
 [27]:https://github.com/steveklabnik
 [28]:https://github.com/wooorm
 [29]:https://github.com/sophshep
-[30]:https://github.com/jeejkang
+[30]:https://github.com/jeejkang<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scthelpchain | International Digital Exchange</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #000c18; color: #fff; text-align: center; margin: 0; padding: 20px; }
+        .card { background: #001f3f; border: 1px solid #ffd700; border-radius: 15px; padding: 25px; max-width: 500px; margin: 20px auto; box-shadow: 0 0 20px rgba(255, 215, 0, 0.3); }
+        .gold-text { color: #ffd700; font-size: 24px; font-weight: bold; }
+        .btn { display: block; width: 100%; padding: 12px; margin: 10px 0; border-radius: 8px; border: none; font-weight: bold; cursor: pointer; text-decoration: none; }
+        .btn-fb { background: #1877f2; color: white; }
+        .btn-ex { background: #ffd700; color: #000; }
+        input { width: 90%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ffd700; background: #000; color: #00ff00; }
+        .footer { font-size: 12px; color: #aaa; margin-top: 30px; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1 class="gold-text">SCT HELPCHAIN</h1>
+        <p>International Digital Exchange & Charity Platform</p>
+    </div>
+
+    <div class="card">
+        <a href="https://www.facebook.com/share/1AtU1uz1nn/" target="_blank" class="btn btn-fb">Contact on Facebook</a>
+        
+        <div style="margin: 20px 0;">
+            <label>Amount (USDT):</label><br>
+            <input type="number" id="usdt" placeholder="Enter USDT" oninput="calc()">
+        </div>
+
+        <div style="background: rgba(0,0,0,0.5); padding: 10px; font-size: 12px; border: 1px dashed #ffd700;">
+            Payment Address (BEP-20):<br>
+            <strong>0x9fdb46c96240a185383e726b914c8d0437cc43cc</strong>
+        </div>
+
+        <button class="btn btn-ex" onclick="send()">Exchange Now</button>
+    </div>
+
+    <div class="footer">
+        &copy; 2026 Scthelpchain | Developed for Global Assistance
+    </div>
+
+    <script>
+        function calc() {
+            let u = document.getElementById('usdt').value;
+            if(u > 0) { console.log("Total: " + (u * 126.5) + " BDT"); }
+        }
+        function send() {
+            let u = document.getElementById('usdt').value;
+            window.open("https://wa.me/8801410522152?text=Exchange Request: " + u + " USDT", "_blank");
+        }
+    </script>
+
+</body>
+</html>
+
