@@ -1,4 +1,95 @@
-{
+{<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCThelpchain | Hero HR Antor Official</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background: #0a0a0a; color: #fff; }
+        
+        /* Hero Section */
+        .hero { background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('https://via.placeholder.com/1200x600'); 
+                height: 400px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; border-bottom: 4px solid #ff0000; }
+        .hero h1 { font-size: 45px; color: #f1c40f; margin: 0; text-transform: uppercase; letter-spacing: 3px; }
+        .hero p { font-size: 20px; color: #dcdde1; margin-top: 10px; }
+
+        /* Status Bar */
+        .status-bar { background: #ff0000; padding: 10px; text-align: center; font-weight: bold; letter-spacing: 1px; }
+
+        /* Main Content */
+        .container { max-width: 900px; margin: 30px auto; padding: 20px; }
+        
+        .card { background: #1a1a1a; padding: 25px; border-radius: 15px; margin-bottom: 25px; border-left: 5px solid #f1c40f; box-shadow: 0 10px 20px rgba(0,0,0,0.5); }
+        .card h2 { color: #f1c40f; margin-top: 0; border-bottom: 1px solid #333; padding-bottom: 10px; }
+
+        /* Crypto Section - Secure No Scam */
+        .crypto-box { background: #000; padding: 20px; border-radius: 10px; text-align: center; border: 1px dashed #ff0000; margin-top: 15px; }
+        .wallet-addr { font-family: monospace; background: #222; padding: 10px; display: block; margin: 15px 0; color: #00ff00; word-break: break-all; }
+        .copy-btn { background: #ff0000; color: #fff; border: none; padding: 12px 25px; border-radius: 5px; cursor: pointer; font-weight: bold; }
+
+        /* Reporter Section */
+        .reporter-info { display: flex; align-items: center; gap: 20px; }
+        .badge { background: #2980b9; padding: 5px 15px; border-radius: 50px; font-size: 14px; }
+
+        footer { text-align: center; padding: 40px; color: #555; font-size: 12px; }
+    </style>
+</head>
+<body>
+
+    <div class="status-bar">MISSION: HUMANITY | NO MIDDLEMAN | DIRECT HELP</div>
+
+    <section class="hero">
+        <h1>HERO HR ANTOR</h1>
+        <p>Assistant Editor (Crime) - জাতীয় দৈনিক ভোরের চেতনা</p>
+        <div style="margin-top: 15px;">
+            <span class="badge">Actor & Lead</span>
+            <span class="badge" style="background:#c0392b;">Journalist</span>
+            <span class="badge" style="background:#27ae60;">Philanthropist</span>
+        </div>
+    </section>
+
+    <div class="container">
+        
+        <div class="card">
+            <h2>শত্রুর বিরুদ্ধে লড়াই (Journalism)</h2>
+            <p>আমি অন্যায়ের বিরুদ্ধে কলম ধরি। <b>ভোরের চেতনা</b> পত্রিকার মাধ্যমে আমরা অপরাধীদের মুখোশ উন্মোচন করি। আমাদের লক্ষ্য একটি অপরাধমুক্ত সমাজ গড়া।</p>
+            <p style="color: #3498db;"><i>টিম মেম্বার: শারমিন আক্তার, আলতাব হোসেন আকাশ।</i></p>
+        </div>
+
+        <div class="card" id="donate">
+            <h2>SCThelpchain - সরাসরি সেবা</h2>
+            <p>আমরা কোনো ধোকাবাজ ইনভেস্টমেন্ট সাইট নই। আমরা সরাসরি মানবতার সেবা করি। আপনার ছোট একটি সাহায্য সরাসরি আমাদের ভেরিফাইড ওয়ালেটে পৌঁছাবে।</p>
+            
+            <div class="crypto-box">
+                <h3 style="margin: 0; color: #fff;">নিরাপদ ক্রিপ্টো সাহায্য (USDT/ETH)</h3>
+                <span class="wallet-addr" id="addr">0xbfc4ca9e39ea4c88e7c1a9090b3daa42eec546e6</span>
+                <button class="copy-btn" onclick="copyAddr()">অ্যাড্রেস কপি করুন</button>
+            </div>
+            <p style="font-size: 12px; color: #888; margin-top: 15px;">*শুধুমাত্র ERC-20 বা BEP-20 নেটওয়ার্ক ব্যবহার করুন।</p>
+        </div>
+
+        <div class="card">
+            <h2>সিনেমা ও সংস্কৃতি (Actor Life)</h2>
+            <p>অভিনয় আমার নেশা। <b>"ভালোবাসি তোমায়"</b> এবং <b>"Secret Mission"</b> মুভির মাধ্যমে আমি আপনাদের বিনোদন দিতে চাই। আমাদের সকল প্রজেক্ট এখন থেকে এখানেই আপডেট পাবেন।</p>
+        </div>
+
+    </div>
+
+    <footer>
+        &copy; 2026 SCThelpchain Project | Founded by Hero HR Antor | Dhaka, Bangladesh
+    </footer>
+
+    <script>
+        function copyAddr() {
+            var text = document.getElementById("addr").innerText;
+            navigator.clipboard.writeText(text);
+            alert("অ্যাড্রেস কপি হয়েছে! এবার আপনার বাইনেন্স থেকে সরাসরি সাহায্য পাঠান।");
+        }
+    </script>
+
+</body>
+</html>
+
   "name": "Jekyll website",
   "image": "mcr.microsoft.com/devcontainers/jekyll:latest",
   "features": {
@@ -47,3 +138,94 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCThelpchain | Hero HR Antor Official</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background: #0a0a0a; color: #fff; }
+        
+        /* Hero Section */
+        .hero { background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('https://via.placeholder.com/1200x600'); 
+                height: 400px; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; border-bottom: 4px solid #ff0000; }
+        .hero h1 { font-size: 45px; color: #f1c40f; margin: 0; text-transform: uppercase; letter-spacing: 3px; }
+        .hero p { font-size: 20px; color: #dcdde1; margin-top: 10px; }
+
+        /* Status Bar */
+        .status-bar { background: #ff0000; padding: 10px; text-align: center; font-weight: bold; letter-spacing: 1px; }
+
+        /* Main Content */
+        .container { max-width: 900px; margin: 30px auto; padding: 20px; }
+        
+        .card { background: #1a1a1a; padding: 25px; border-radius: 15px; margin-bottom: 25px; border-left: 5px solid #f1c40f; box-shadow: 0 10px 20px rgba(0,0,0,0.5); }
+        .card h2 { color: #f1c40f; margin-top: 0; border-bottom: 1px solid #333; padding-bottom: 10px; }
+
+        /* Crypto Section - Secure No Scam */
+        .crypto-box { background: #000; padding: 20px; border-radius: 10px; text-align: center; border: 1px dashed #ff0000; margin-top: 15px; }
+        .wallet-addr { font-family: monospace; background: #222; padding: 10px; display: block; margin: 15px 0; color: #00ff00; word-break: break-all; }
+        .copy-btn { background: #ff0000; color: #fff; border: none; padding: 12px 25px; border-radius: 5px; cursor: pointer; font-weight: bold; }
+
+        /* Reporter Section */
+        .reporter-info { display: flex; align-items: center; gap: 20px; }
+        .badge { background: #2980b9; padding: 5px 15px; border-radius: 50px; font-size: 14px; }
+
+        footer { text-align: center; padding: 40px; color: #555; font-size: 12px; }
+    </style>
+</head>
+<body>
+
+    <div class="status-bar">MISSION: HUMANITY | NO MIDDLEMAN | DIRECT HELP</div>
+
+    <section class="hero">
+        <h1>HERO HR ANTOR</h1>
+        <p>Assistant Editor (Crime) - জাতীয় দৈনিক ভোরের চেতনা</p>
+        <div style="margin-top: 15px;">
+            <span class="badge">Actor & Lead</span>
+            <span class="badge" style="background:#c0392b;">Journalist</span>
+            <span class="badge" style="background:#27ae60;">Philanthropist</span>
+        </div>
+    </section>
+
+    <div class="container">
+        
+        <div class="card">
+            <h2>শত্রুর বিরুদ্ধে লড়াই (Journalism)</h2>
+            <p>আমি অন্যায়ের বিরুদ্ধে কলম ধরি। <b>ভোরের চেতনা</b> পত্রিকার মাধ্যমে আমরা অপরাধীদের মুখোশ উন্মোচন করি। আমাদের লক্ষ্য একটি অপরাধমুক্ত সমাজ গড়া।</p>
+            <p style="color: #3498db;"><i>টিম মেম্বার: শারমিন আক্তার, আলতাব হোসেন আকাশ।</i></p>
+        </div>
+
+        <div class="card" id="donate">
+            <h2>SCThelpchain - সরাসরি সেবা</h2>
+            <p>আমরা কোনো ধোকাবাজ ইনভেস্টমেন্ট সাইট নই। আমরা সরাসরি মানবতার সেবা করি। আপনার ছোট একটি সাহায্য সরাসরি আমাদের ভেরিফাইড ওয়ালেটে পৌঁছাবে।</p>
+            
+            <div class="crypto-box">
+                <h3 style="margin: 0; color: #fff;">নিরাপদ ক্রিপ্টো সাহায্য (USDT/ETH)</h3>
+                <span class="wallet-addr" id="addr">0xbfc4ca9e39ea4c88e7c1a9090b3daa42eec546e6</span>
+                <button class="copy-btn" onclick="copyAddr()">অ্যাড্রেস কপি করুন</button>
+            </div>
+            <p style="font-size: 12px; color: #888; margin-top: 15px;">*শুধুমাত্র ERC-20 বা BEP-20 নেটওয়ার্ক ব্যবহার করুন।</p>
+        </div>
+
+        <div class="card">
+            <h2>সিনেমা ও সংস্কৃতি (Actor Life)</h2>
+            <p>অভিনয় আমার নেশা। <b>"ভালোবাসি তোমায়"</b> এবং <b>"Secret Mission"</b> মুভির মাধ্যমে আমি আপনাদের বিনোদন দিতে চাই। আমাদের সকল প্রজেক্ট এখন থেকে এখানেই আপডেট পাবেন।</p>
+        </div>
+
+    </div>
+
+    <footer>
+        &copy; 2026 SCThelpchain Project | Founded by Hero HR Antor | Dhaka, Bangladesh
+    </footer>
+
+    <script>
+        function copyAddr() {
+            var text = document.getElementById("addr").innerText;
+            navigator.clipboard.writeText(text);
+            alert("অ্যাড্রেস কপি হয়েছে! এবার আপনার বাইনেন্স থেকে সরাসরি সাহায্য পাঠান।");
+        }
+    </script>
+
+</body>
+</html>
